@@ -1,6 +1,11 @@
 # mmocap
 Parallelization Strategies for Markerless Human Motion Capture
 
+https://helvia.uco.es/handle/10396/13002
+https://link.springer.com/article/10.1007/s11554-014-0467-1
+
+Cano, A., Yeguas-Bolivar, E., Muñoz-Salinas, R. et al. Parallelization strategies for markerless human motion capture. J Real-Time Image Proc 14, 453–467 (2018). https://doi.org/10.1007/s11554-014-0467-1
+
 Markerless Motion Capture (MMOCAP) is the
 problem of determining the pose of a person from images
 captured by one or several cameras simultaneously without
