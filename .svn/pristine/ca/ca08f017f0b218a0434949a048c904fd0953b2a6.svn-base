@@ -1,0 +1,8 @@
+2010-09-01 Rafa Muñoz
+  - Eliminado fastxor
+  - Agregado paralelismo a nivel de evaluacion en CMAESHUMANTRACKER
+  - Creado un espacio de nombres para los algoritmos  (gummocap::algorithms)
+  - Creada una clase abstracta para algoritmos ( gummocap::algorithms::HumanTracker)
+  - Creada clase para algoritmo basado en Annealed Particle Filter. Requiere actualizar guai y recompilarla
+  - Actualizado gummocap_test para que incluya los algoritmos Condensation y AnnealedPF. La seleccion se hace desde linea de comandos
+  - Eliminados vectores    _projs y  _xorimgs de CMAESHumanTracker

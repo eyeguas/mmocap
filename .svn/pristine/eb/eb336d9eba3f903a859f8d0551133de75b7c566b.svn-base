@@ -1,0 +1,12 @@
+#include "algorithms/cmaes/cmaeshumantracker.h"
+#include "algorithms/cmaes/cmaeshumanparttracker.h"
+#include "algorithms/macma/macmachainshumantracker.h"
+#include "algorithms/macma/macmachainshumanparttracker.h"
+#include "algorithms/condensation/condensationhumantracker.h"
+#include "algorithms/ann/annealedhumantracker.h"
+#include "algorithms/ann/psapf.h"
+#include "algorithms/pso/psohumantracker.h"
+#include "algorithms/pso/psohumanparttracker.h"
+#include "algorithms/de/dehumantracker.h"
+#include "algorithms/de/dehumanparttracker.h"
+

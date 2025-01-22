@@ -1,0 +1,18 @@
+INCLUDE_DIRECTORIES(${PROJECT_SOURCE_DIR}/src)
+LINK_LIBRARIES(${PROJECT_NAME} ${REQUIRED_LIBRARIES})
+ 
+# INCLUDE_DIRECTORIES(${PROJECT_SOURCE_DIR}/src/macmachains)
+# INCLUDE_DIRECTORIES(${PROJECT_SOURCE_DIR}/src/realea)
+
+ADD_EXECUTABLE(gummocap_test_humantracker  gummocap_test_humantracker.cpp)
+ADD_EXECUTABLE(test_de  test_de.cpp)
+
+# TARGET_LINK_LIBRARIES(gummocap_test_humantracker  ${PROJECT_NAME} ${REQUIRED_LIBRARIES})
+# TARGET_LINK_LIBRARIES(test_de ${PROJECT_NAME} ${REQUIRED_LIBRARIES} )
+
+
+#LINK_DIRECTORIES(${PROJECT_SOURCE_DIR}/src/realea/lib/ ${PROJECT_SOURCE_DIR}/src/macmachains/lib/)
+
+INSTALL(TARGETS 
+	gummocap_test_humantracker
+	RUNTIME DESTINATION bin)

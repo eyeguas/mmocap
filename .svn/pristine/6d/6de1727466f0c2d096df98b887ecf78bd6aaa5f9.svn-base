@@ -1,0 +1,11 @@
+prefix=@CMAKE_INSTALL_PREFIX@
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+Name: @PACKAGE_NAME@
+Description: Set Your description here!!!!! 
+Version: @PACKAGE_VERSION@
+Requires:  gumocap >= 1.0.0 guscene >= 1.0.0 gurealea >= 1.0.0
+Conflicts: 
+Libs: @LDFLAGS@ @LIBS@ -lgumocap -lguscene -lgurealea
+Cflags: -I
